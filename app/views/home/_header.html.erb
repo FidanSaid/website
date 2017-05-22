@@ -1,0 +1,25 @@
+<header>
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<div class="navbar-brand">
+								<a href="<%= root_path%>"><h1>Website</h1></a>
+							</div>
+	
+							</div>
+						</div>
+						<div class="menu">
+							<ul class="nav nav-tabs" role="tablist">
+							 <li role="presentation" class="active"> <%= link_to "About", home_about_path%>
+								<li role="presentation" class="active" ><%= link_to "Blog", home_blog_path%></li>
+								<li role="presentation" class="active"><%= link_to "portfolio", home_portfolio_path%></li>
+								<li role="presentation"class="active"><%= link_to "contacts", home_contacts_path%></li>						
+							</ul>
+						</div>
+					</div>			
+				</nav>
+			</div>
+		</div>
+	</header>
